@@ -28,12 +28,8 @@ def artist_name
      else 
        self.artist 
      end
-  
-end 
+ end 
  
- def add_song_by_name(name) 
- name =Song.new 
- Song.new. = @name
- end
+ 
 
 end
