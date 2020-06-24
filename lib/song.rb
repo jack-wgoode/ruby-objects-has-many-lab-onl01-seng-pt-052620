@@ -33,7 +33,7 @@ end
  
  def add_song_by_name(name) 
  @name = name 
- Song.new.title = @name
+ Song.new. = @name
  end
 
 end
