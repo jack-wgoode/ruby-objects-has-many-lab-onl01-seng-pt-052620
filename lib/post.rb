@@ -16,9 +16,9 @@ class Post
     @author
   end
   
-  def author=(author)
-    self.author = author
-  end
+  # def author=(author)
+  #   self.author = author
+  # end
   
   def self.all 
      @@all 
