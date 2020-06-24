@@ -18,9 +18,9 @@ def posts
    post.author = self
  end
  
- def add_song_by_title(song_name)
-    song_name = Song.new(song_name)
-    add_song(song_name)
+ def add_post_by_title(title)
+    post = Post.new(title)
+    add_song(post)
   end
  
  def self.post_count 
