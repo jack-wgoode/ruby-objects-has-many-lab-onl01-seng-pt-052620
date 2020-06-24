@@ -32,7 +32,7 @@ def artist_name
 end 
  
  def add_song_by_name(name) 
- @name = name 
+ name =Song.new 
  Song.new. = @name
  end
 
