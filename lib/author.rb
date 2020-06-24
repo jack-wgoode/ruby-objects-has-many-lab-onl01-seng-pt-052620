@@ -21,7 +21,7 @@ def posts
  end
  
  def add_post_by_title(title)
-   @title = title
+   
     post = Post.new(@title)
     add_post(post)
   end
