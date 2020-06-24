@@ -20,9 +20,9 @@ class Post
     self.author = author
   end
   
-  def self.all 
-    @@all 
-  end
+  # def self.all 
+  #   @@all 
+  # end
   
   
   
