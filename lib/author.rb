@@ -11,7 +11,7 @@ class Author
  
 def posts 
    Post.all.select do |post|
-     song.author == self
+     post.author == self
       end
  end
  
